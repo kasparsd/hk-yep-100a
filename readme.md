@@ -7,7 +7,8 @@ Here is an overview of the [Hobbyking YEP 100A ESC](http://www.hobbyking.com/hob
 - Atmel Mega 168PA (AU 1451) microcontroller
 - Intersil ISL6700 (L423FKW) half-bridge drivers
 - ON Semiconductor LM2931 (PFJZ5) voltage regulator (40V input continuous)
-- TOSHIBA TPCA8060-H N-Channel MOSFETS
+- TOSHIBA TPCA8060-H N-Channel MOSFETS (phase output)
+- TOSHIBA TPC8109 P-Channel MOSFET (30V)
 
 
 ## ATmega168PA Connections
