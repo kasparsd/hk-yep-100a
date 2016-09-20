@@ -7,6 +7,43 @@ Here is an overview of the [Hobbyking YEP 100A ESC](http://www.hobbyking.com/hob
 - Atmel Mega 168PA (AU 1451) microcontroller
 - Intersil ISL6700 (L423FKW) half-bridge drivers
 - ON Semiconductor LM2931 (PFJZ5) voltage regulator (40V input continuous)
+- TOSHIBA TPCA8060-H N-Channel MOSFETS
+
+
+## ATmega168PA Connections
+
+- PD1: PWM throttle input
+- PD3: LED negative
+- PB6, PB7 XTAL
+- PB0: Phase A Hi
+- PB1: Phase C Hi
+- PB2: Phase B Hi
+- PB3: Phase A Li
+- PB4: Phase C Li
+- PB5: Phase B Li
+- PC0: Vbat through 18.2kOhm and 2kOhm voltage divider
+- PC1: Unknown ADC
+
+
+## MOSFET board connections
+
+HO, LO and HS are connections to ISL6700. From top (DC input) to bottom (Phase output):
+
+- GND
+- GND
+- Vbat
+- Vbat
+- Not connected?
+- Phase C HO
+- Phase C LO
+- Phase B HO
+- Phase B LO
+- Phase A HO
+- Phase A LO
+- Unknown ADC
+- Phase C HS
+- Phase B HS
+- Phase A HS
 
 
 ## Specification
